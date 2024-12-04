@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shopping Cart</title>
+    <link rel="stylesheet" href="css/add_to_cart.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+</head>
+
+<body>
+
+    <div class="ul-container ">
+        <div class="container">
+            <ul class="ul-custom">
+                <li><a href="#">Home</a></li>
+                <li>/</li>
+                <li><a href="#">Shopping Cart</a></li>
+            </ul>
+        </div>
+    </div>
+
+    <header>
+        <h1>Shopping Cart</h1>
+    </header>
+
+    <main class="cart-content">
+        <section class="cart-items">
+            <h2>Your Cart</h2>
+            <div class="table-wrapper">
+                <table class="cart-table">
+                    <thead>
+                        <tr>
+                            <th>Image</th>
+                            <th>Name</th>
+                            <th>Price</th>
+                            <th>Quantity</th>
+                            <th>Total Price</th>
+                            <th>Delete</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>
+                                <div class="product-image">
+                                    <a href="" class="product-link">
+                                        <img src="images/product.jpeg" class="product-img">
+                                    </a>
+                                </div>
+                            </td>
+                            <td>
+                                <div class="product-info">
+                                    <a href="#" title="Mille oil " style="text-decoration: none ; color:#333; font-size:20px">Mille RoseMarry oil </a>
+                                    <p><small>Multi-vitamin+Antioxidants<br> Potent PM serum</small></p>
+                                </div>
+                            </td>
+                            <td>
+                                <span class="product-price">$64.00 </span>
+                            </td>
+                            <td>
+                                <div class="quantity-controls">
+                                    <button type="button" class="quantity-increase">+</button>
+                                    <input class="quantity-input" type="text" value="1">
+                                    <button type="button" class="quantity-decrease">-</button>
+                                </div>
+                            </td>
+                            <td>
+                                <span class="total-price">$64.00</span>
+                            </td>
+                            <td>
+                                <a type="button" class="remove-item"><i class="fa-solid fa-trash"></i></a>
+                            </td>
+                        </tr>
+
+                    </tbody>
+                </table>
+            </div>
+        </section>
+
+        <section class="summary">
+            <h2>Summary</h2>
+            <p>Total items (Tax Included in Price): <span id="total-items">0</span></p>
+            <p>Total: <span id="subtotal"> $ 0.00</span></p>
+            <p>Total (Shipping fees included): <span id="total-with-shipping">$  45.00</span></p>
+            <button class="checkout-button" id="checkout-btn">Checkout</button>
+        </section>
+    </main>
+
+    <footer>
+        <div class="footerr">
+            <a href="#">About us</a>
+            <a href="contact us.html">Contact us</a>
+            <a href="Skin.html">Skin Care</a>
+                <a href="bodyProducts.html">Body</a>
+                <a href="hairProducts.html">Hair</a>
+            <a href="home.html">Home</a>
+        </div>
+        <div class="ficon">
+            <a href="#"> <i id="iconss" class="fa-brands fa-facebook-f"></i></a>
+            <a href="#"><i id="iconss" class="fa-brands fa-twitter"></i></a>
+            <a href="#"><i id="iconss" class="fa-brands fa-google"></i></a>
+            <a href="#"><i id="iconss" class="fa-brands fa-instagram"></i></a>
+        </div>
+        <div class="footer"> © JustForYou-created by Haneen Nasser</div>
+    </footer>
+
+    <script src="js/add_to_cart.js"></script>
+</body>
+
+</html>

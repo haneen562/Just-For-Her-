@@ -1,0 +1,970 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Skin care Products</title>
+    <link rel="stylesheet" href="Css/skin.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+        integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&family=Young+Serif&display=swap"
+        rel="stylesheet">
+</head>
+
+<body>
+
+    <div class="filter-container">
+        <button class="filter-btn active" data-filter="best-seller">Best Sellers</button>
+        <button class="filter-btn" data-filter="shampoo">Sunscreen</button>
+        <button class="filter-btn" data-filter="conditioner">Moisturizer</button>
+        <button class="filter-btn" data-filter="hair-mask">Body lotion</button>
+    </div>
+
+    <div class="best-container">
+        <div class="best" data-category="best-seller">
+
+            <div class="disc">
+                <div class="name">
+                    <h2>The Ordinary Seurm</h2>
+                </div>
+                <div class="content">
+                    <p>This combined 30% AHA and 2% BHA solution offers deeper exfoliation to help fight visible blemishes and for improved skin radiance. The formula also improves the appearance of skin texture and reduces the look of fine lines with continued use.</p>
+
+                </div>
+                <div class="price">
+                    <h3> <span>$150.00</span> $135.00</h3>
+                </div>
+                <div class="btn">
+                    <div class="favorites-container">
+                        <label class="favorites-btn">
+                            <input type="checkbox" class="favorites-checkbox">
+                            <span class="heart-icon" id="favourites">&#10084;</span>
+                        </label>
+                    </div>
+                    <button>Add to cart</button>
+                </div>
+            </div>
+            <div class="image">
+                <img src="images/Product_photography-removebg-preview.png"
+                    alt="">
+                <div class="product-icons">
+                    <i class="fa fa-star checked"></i>
+                    <i class="fa fa-star checked"></i>
+                    <i class="fa fa-star checked"></i>
+                    <i class="fa fa-star checked"></i>
+                    <i class="fa-regular fa-star"></i>
+                </div>
+            </div>
+        </div>
+
+        <div class="best unchosen" data-category="shampoo">
+            <div class="disc">
+                <div class="name">
+                    <h2>La Roche posay</h2>
+                </div>
+                <div class="content">
+                    <p>Dry touch textureNon-oilyNon-stickyNo white marks
+                        Apply the sunscreen product just before exposure.Re-apply frequently and generously to maintain protection, especially after perspiring or toweling.External use.</p>
+                </div>
+                <div class="price">
+                    <h3> <span>$60.49</span> $54.44</h3>
+                </div>
+                <div class="btn">
+                    <div class="favorites-container">
+                        <label class="favorites-btn">
+                            <input type="checkbox" class="favorites-checkbox">
+                            <span class="heart-icon" id="favourites">&#10084;</span>
+                        </label>
+                    </div>
+                    <button>Add to cart</button>
+                </div>
+            </div>
+            <div class="image">
+                <img src="images/The_indispensable_product_of_the_skin_care_routine__sunscreen___skincare__skincareroutine__suncream__larocheposay-removebg-preview.png" alt="">
+                <div class="product-icons">
+                    <i class="fa fa-star checked"></i>
+                    <i class="fa fa-star checked"></i>
+                    <i class="fa fa-star checked"></i>
+                    <i class="fa fa-star checked"></i>
+                    <i class="fa-regular fa-star"></i>
+                </div>
+            </div>
+        </div>
+
+        <div class="best unchosen" data-category="conditioner">
+            <div class="disc">
+                <div class="name">
+                    <h2>Glossier</h2>
+                </div>
+                <div class="content">
+                    <p>Paul Mitchell's The Conditioner™ (1000 ml) boosts hair suppleness, reduces static, and
+                        prevents dryness. Infused with Hawaiian awapuhi, it revitalizes dull hair and doubles as a
+                        hydrating body lotion.</p>
+                </div>
+                <div class="price">
+                    <h3> <span>$60.00</span> $54.00</h3>
+                </div>
+                <div class="btn">
+                    <div class="favorites-container">
+                        <label class="favorites-btn">
+                            <input type="checkbox" class="favorites-checkbox">
+                            <span class="heart-icon" id="favourites">&#10084;</span>
+                        </label>
+                    </div>
+                    <button>Add to cart</button>
+                </div>
+            </div>
+            <div class="image">
+                <img src="images/The_Best_Face_Moisturizers_to_Hydrate_All_Skin_Types-removebg-preview.png" alt="">
+                <div class="product-icons">
+                    <i class="fa fa-star checked"></i>
+                    <i class="fa fa-star checked"></i>
+                    <i class="fa fa-star checked"></i>
+                    <i class="fa fa-star checked"></i>
+                    <i class="fa-regular fa-star"></i>
+                </div>
+            </div>
+        </div>
+
+        <div class="best unchosen" data-category="hair-mask">
+            <div class="disc">
+                <div class="name">
+                    <h2>Sake body lotion</h2>
+                </div>
+                <div class="content">
+                    <p>Light and buildable moisture for a dewy, smooth canvas.
+
+                        A lightweight, buildable moisturizer that instantly brings out the best in all skin types. It hydrates, visibly evens skin texture, and minimizes the look of pores—while priming skin for gorgeous makeup application.
+                        
+                        .</p>
+                </div>
+                <div class="price">
+                    <h3> <span>$43.99</span> $39.59</h3>
+                </div>
+                <div class="btn">
+                    <div class="favorites-container">
+                        <label class="favorites-btn">
+                            <input type="checkbox" class="favorites-checkbox">
+                            <span class="heart-icon" id="favourites">&#10084;</span>
+                        </label>
+                    </div>
+                    <button>Add to cart</button>
+                </div>
+            </div>
+            <div class="image">
+                <img src="images/Rice_Milk_Lotion___Sake_Body_Lotion-removebg-preview.png" alt="">
+                <div class="product-icons">
+                    <i class="fa fa-star checked"></i>
+                    <i class="fa fa-star checked"></i>
+                    <i class="fa fa-star checked"></i>
+                    <i class="fa fa-star checked"></i>
+                    <i class="fa-regular fa-star"></i>
+                </div>
+            </div>
+        </div>
+
+        <div class="best unchosen" data-category="hair-serum">
+            <div class="disc">
+                <div class="name">
+                    <h2>Cerave</h2>
+                </div>
+                <div class="content">
+                    <p>A cleanser can remove dirt, makeup and other debris, but a hydrating cleanser, like CeraVe Hydrating Facial Cleanser, can do all that without disrupting the skin’s natural protective barrier or stripping the skin of its natural moisture. Created with dermatologists, CeraVe Hydrating Facial Cleanser is a gentle face wash with ingredients like ceramides and hyaluronic acid that work to restore the skin’s natural barrier to help the skin lock in moisture..</p>
+                </div>
+                <div class="price">
+                    <h3> <span>$44.99</span> $40.59</h3>
+                </div>
+                <div class="btn">
+                    <div class="favorites-container">
+                        <label class="favorites-btn">
+                            <input type="checkbox" class="favorites-checkbox">
+                            <span class="heart-icon" id="favourites">&#10084;</span>
+                        </label>
+                    </div>
+                    <button>Add to cart</button>
+                </div>
+            </div>
+            <div class="image">
+                <img src="images/Body_Wash__Shower_Gel__or_Bar_Soap__How_to_Know_Which_Is_Right_for_You-removebg-preview.png" alt="">
+                <div class="product-icons">
+                    <i class="fa fa-star checked"></i>
+                    <i class="fa fa-star checked"></i>
+                    <i class="fa fa-star checked"></i>
+                    <i class="fa fa-star checked"></i>
+                    <i class="fa-regular fa-star"></i>
+                </div>
+            </div>
+        </div>
+
+        <div class="best unchosen" data-category="hair-oil">
+            <div class="disc">
+                <div class="name">
+                    <h2>The Ordinary</h2>
+                </div>
+                <div class="content">
+                    <p>This combined 30% AHA and 2% BHA solution offers deeper exfoliation to help fight visible blemishes and for improved skin radiance. The formula also improves the appearance of skin texture and reduces the look of fine lines with continued use.</p>
+                </div>
+                <div class="price">
+                    <h3> <span>$21.54</span> $19.39</h3>
+                </div>
+                <div class="btn">
+                    <div class="favorites-container">
+                        <label class="favorites-btn">
+                            <input type="checkbox" class="favorites-checkbox">
+                            <span class="heart-icon" id="favourites">&#10084;</span>
+                        </label>
+                    </div>
+                    <button>Add to cart</button>
+                </div>
+            </div>
+            <div class="image">
+                <img src="images/Product_photography-removebg-preview.png" alt="">
+                <div class="product-icons">
+                    <i class="fa fa-star checked"></i>
+                    <i class="fa fa-star checked"></i>
+                    <i class="fa fa-star checked"></i>
+                    <i class="fa fa-star checked"></i>
+                    <i class="fa-regular fa-star"></i>
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+    <!-- Products -->
+    <div class="container">
+
+        <!-- Best-Seller -->
+        <div class="product" data-category="best-seller">
+            <div class="image">
+                <div class="offer">-10%</div>
+                <img src="images/Product_photography-removebg-preview.png" alt="">
+            </div>
+            <div class="disc">
+                <div class="name">The Ordinary</div>
+                <div class="content">
+                    <p>Beeling seurm, 30 ml</p>
+                </div>
+                <div class="price">
+                    <h3> <span>$60.49</span> $54.44</h3>
+                </div>
+                <div class="stars">
+                    <i class="fa fa-star checked"></i>
+                    <i class="fa fa-star checked"></i>
+                    <i class="fa fa-star checked"></i>
+                    <i class="fa fa-star checked"></i>
+                    <i class="fa fa-star unchecked"></i>
+                </div>
+                <div class="btn">
+                    <div class="favorites-container">
+                        <label class="favorites-btn">
+                            <input type="checkbox" class="favorites-checkbox">
+                            <span class="heart-icon heart-checked unchecked" id="favourites">&#10084;</span>
+                        </label>
+                    </div>
+                    <button>Add to cart</button>
+                </div>
+            </div>
+        </div>
+
+        <div class="product" data-category="best-seller">
+            <div class="image">
+                <div class="offer">-10%</div>
+                <img src="images/The_indispensable_product_of_the_skin_care_routine__sunscreen___skincare__skincareroutine__suncream__larocheposay-removebg-preview.png" alt="">
+            </div>
+            <div class="disc">
+                <div class="name">La Roche Posay</div>
+                <div class="content">
+                    <p>Sunscreen, 50 ml</p>
+                </div>
+                <div class="price">
+                    <h3> <span>$60.00</span> $54.00</h3>
+                </div>
+                <div class="stars">
+                    <i class="fa fa-star checked"></i>
+                    <i class="fa fa-star checked"></i>
+                    <i class="fa fa-star checked"></i>
+                    <i class="fa fa-star checked"></i>
+                    <i class="fa fa-star unchecked"></i>
+                </div>
+                <div class="btn">
+                    <div class="favorites-container">
+                        <label class="favorites-btn">
+                            <input type="checkbox" class="favorites-checkbox">
+                            <span class="heart-icon heart-checked unchecked" id="favourites">&#10084;</span>
+                        </label>
+                    </div>
+                    <button>Add to cart</button>
+                </div>
+            </div>
+        </div>
+
+        <div class="product" data-category="best-seller">
+            <div class="image">
+                <div class="offer">-10%</div>
+                <img src="images/Body_Wash__Shower_Gel__or_Bar_Soap__How_to_Know_Which_Is_Right_for_You-removebg-preview.png" alt="">
+            </div>
+            <div class="disc">
+                <div class="name">CeraVa</div>
+                <div class="content">
+                    <p>Cleanser , 150 ml</p>
+                </div>
+                <div class="price">
+                    <h3> <span>$43.99</span> $39.59</h3>
+                </div>
+                <div class="stars">
+                    <i class="fa fa-star checked"></i>
+                    <i class="fa fa-star checked"></i>
+                    <i class="fa fa-star checked"></i>
+                    <i class="fa fa-star checked"></i>
+                    <i class="fa fa-star unchecked"></i>
+                </div>
+                <div class="btn">
+                    <div class="favorites-container">
+                        <label class="favorites-btn">
+                            <input type="checkbox" class="favorites-checkbox">
+                            <span class="heart-icon heart-checked unchecked" id="favourites">&#10084;</span>
+                        </label>
+                    </div>
+                    <button>Add to cart</button>
+                </div>
+            </div>
+        </div>
+
+        <div class="product" data-category="best-seller">
+            <div class="image">
+                <div class="offer">-10%</div>
+                <img src="images/Rice_Milk_Lotion___Sake_Body_Lotion-removebg-preview.png" alt="">
+            </div>
+            <div class="disc">
+                <div class="name">Sake Body</div>
+                <div class="content">
+                    <p>Rice Milk Lotion,250 ml</p>
+                </div>
+                <div class="price">
+                    <h3> <span>$44.99</span> $40.59</h3>
+                </div>
+                <div class="stars">
+                    <i class="fa fa-star checked"></i>
+                    <i class="fa fa-star checked"></i>
+                    <i class="fa fa-star checked"></i>
+                    <i class="fa fa-star checked"></i>
+                    <i class="fa fa-star unchecked"></i>
+                </div>
+                <div class="btn">
+                    <div class="favorites-container">
+                        <label class="favorites-btn">
+                            <input type="checkbox" class="favorites-checkbox">
+                            <span class="heart-icon heart-checked unchecked" id="favourites">&#10084;</span>
+                        </label>
+                    </div>
+                    <button>Add to cart</button>
+                </div>
+            </div>
+        </div>
+
+        <div class="product" data-category="best-seller">
+            <div class="image">
+                <div class="offer">-10%</div>
+                <img src="images/The_Best_Face_Moisturizers_to_Hydrate_All_Skin_Types-removebg-preview.png" alt="">
+            </div>
+            <div class="disc">
+                <div class="name">Glossier</div>
+                <div class="content">
+                    <p>Best Moisturizer for All skin type, 150 ml</p>
+                </div>
+                <div class="price">
+                    <h3> <span>$21.54</span> $19.39</h3>
+                </div>
+                <div class="stars">
+                    <i class="fa fa-star checked"></i>
+                    <i class="fa fa-star checked"></i>
+                    <i class="fa fa-star checked"></i>
+                    <i class="fa fa-star checked"></i>
+                    <i class="fa fa-star unchecked"></i>
+                </div>
+                <div class="btn">
+                    <div class="favorites-container">
+                        <label class="favorites-btn">
+                            <input type="checkbox" class="favorites-checkbox">
+                            <span class="heart-icon heart-checked unchecked" id="favourites">&#10084;</span>
+                        </label>
+                    </div>
+                    <button>Add to cart</button>
+                </div>
+            </div>
+        </div>
+
+        <div class="product" data-category="best-seller">
+            <div class="image">
+                <div class="offer">-10%</div>
+                <img src="images/Glow_Recipe_Watermelon_Glow_Pink_Juice_Moisturizer____39_00-removebg-preview.png" alt="">
+            </div>
+            <div class="disc">
+                <div class="name">Glow Moisturizer</div>
+                <div class="content">
+                    <p>Perfect for oily skin, 200ml</p>
+                </div>
+                <div class="price">
+                    <h3> <span>&10.00</span> $9.00</h3>
+                </div>
+                <div class="stars">
+                    <i class="fa fa-star checked"></i>
+                    <i class="fa fa-star checked"></i>
+                    <i class="fa fa-star checked"></i>
+                    <i class="fa fa-star checked"></i>
+                    <i class="fa fa-star unchecked"></i>
+                </div>
+                <div class="btn">
+                    <div class="favorites-container">
+                        <label class="favorites-btn">
+                            <input type="checkbox" class="favorites-checkbox">
+                            <span class="heart-icon heart-checked unchecked" id="favourites">&#10084;</span>
+                        </label>
+                    </div>
+                    <button>Add to cart</button>
+                </div>
+            </div>
+        </div>
+
+        <!--======================================================================================== -->
+        <!-- Hair Shampoo -->
+        <div class="product unchosen" data-category="shampoo">
+            <div class="image">
+                <!-- <div class="offer">-10%</div> -->
+                <img src="images/8_Invisible_Facial_Sunscreens_to_Try-removebg-preview.png" alt="">
+            </div>
+            <div class="disc">
+                <div class="name">La Roche posay</div>
+                <div class="content">
+                    <p>Sunscreen for oily skin,50ml</p>
+                </div>
+                <div class="price">
+                    <h3>$40.00</h3>
+                </div>
+                <div class="stars">
+                    <i class="fa fa-star checked"></i>
+                    <i class="fa fa-star checked"></i>
+                    <i class="fa fa-star unchecked"></i>
+                    <i class="fa fa-star unchecked"></i>
+                    <i class="fa fa-star unchecked"></i>
+                </div>
+                <div class="btn">
+                    <div class="favorites-container">
+                        <label class="favorites-btn">
+                            <input type="checkbox" class="favorites-checkbox">
+                            <span class="heart-icon heart-checked unchecked" id="favourites">&#10084;</span>
+                        </label>
+                    </div>
+                    <button>Add to cart</button>
+                </div>
+            </div>
+        </div>
+
+        <div class="product unchosen" data-category="shampoo">
+            <div class="image">
+                <!-- <div class="offer">-10%</div> -->
+                <img src="images/korean.png" alt="">
+            </div>
+            <div class="disc">
+                <div class="name">KOREAN</div>
+                <div class="content">
+                    <p>Sunscreen, 50 ml</p>
+                </div>
+                <div class="price">
+                    <h3>$32.55</h3>
+                </div>
+                <div class="stars">
+                    <i class="fa fa-star checked"></i>
+                    <i class="fa fa-star checked"></i>
+                    <i class="fa fa-star checked"></i>
+                    <i class="fa fa-star unchecked"></i>
+                    <i class="fa fa-star unchecked"></i>
+                </div>
+                <div class="btn">
+                    <div class="favorites-container">
+                        <label class="favorites-btn">
+                            <input type="checkbox" class="favorites-checkbox">
+                            <span class="heart-icon heart-checked unchecked" id="favourites">&#10084;</span>
+                        </label>
+                    </div>
+                    <button>Add to cart</button>
+                </div>
+            </div>
+        </div>
+
+        <div class="product unchosen" data-category="shampoo">
+            <div class="image">
+                <!-- <div class="offer">-10%</div> -->
+                <img src="images/Cetaphil_Sheer_Mineral_Liquid_Face_Sunscreen_SPF_50_-_1_7_fl_oz-removebg-preview.png" alt="">
+            </div>
+            <div class="disc">
+                <div class="name">Cetaphil-Sheer</div>
+                <div class="content">
+                    <p>Liquid SunScreen, 100ml</p>
+                </div>
+                <div class="price">
+                    <h3>$23.69</h3>
+                </div>
+                <div class="stars">
+                    <i class="fa fa-star unchecked"></i>
+                    <i class="fa fa-star unchecked"></i>
+                    <i class="fa fa-star unchecked"></i>
+                    <i class="fa fa-star unchecked"></i>
+                    <i class="fa fa-star unchecked"></i>
+                </div>
+                <div class="btn">
+                    <div class="favorites-container">
+                        <label class="favorites-btn">
+                            <input type="checkbox" class="favorites-checkbox">
+                            <span class="heart-icon heart-checked unchecked" id="favourites">&#10084;</span>
+                        </label>
+                    </div>
+                    <button>Add to cart</button>
+                </div>
+            </div>
+        </div>
+
+        <div class="product unchosen" data-category="shampoo">
+            <div class="image">
+                <!-- <div class="offer">-10%</div> -->
+                <img src="images/15_Creative_Visual_Metaphors_in_Advertising__Examples_and_Tips-removebg-preview.png" alt="">
+            </div>
+            <div class="disc">
+                <div class="name">Creative</div>
+                <div class="content">
+                    <p>Sunscreen gel, 50 ml</p>
+                </div>
+                <div class="price">
+                    <h3>$24.99</h3>
+                </div>
+                <div class="stars">
+                    <i class="fa fa-star unchecked"></i>
+                    <i class="fa fa-star unchecked"></i>
+                    <i class="fa fa-star unchecked"></i>
+                    <i class="fa fa-star unchecked"></i>
+                    <i class="fa fa-star unchecked"></i>
+                </div>
+                <div class="btn">
+                    <div class="favorites-container">
+                        <label class="favorites-btn">
+                            <input type="checkbox" class="favorites-checkbox">
+                            <span class="heart-icon heart-checked unchecked" id="favourites">&#10084;</span>
+                        </label>
+                    </div>
+                    <button>Add to cart</button>
+                </div>
+            </div>
+        </div>
+
+        <div class="product unchosen" data-category="shampoo">
+            <div class="image">
+                <!-- <div class="offer">-10%</div> -->
+                <img src="images/These_Were_the_Best_Skin-Care_Products_to_Launch_in_March-removebg-preview.png" alt="">
+            </div>
+            <div class="disc">
+                <div class="name">These Were</div>
+                <div class="content">
+                    <p>Sunscreen for dry skin, 50ml</p>
+                </div>
+                <div class="price">
+                    <h3>$27.49</h3>
+                </div>
+                <div class="stars">
+                    <i class="fa fa-star checked"></i>
+                    <i class="fa fa-star checked"></i>
+                    <i class="fa fa-star checked"></i>
+                    <i class="fa fa-star unchecked"></i>
+                    <i class="fa fa-star unchecked"></i>
+                </div>
+                <div class="btn">
+                    <div class="favorites-container">
+                        <label class="favorites-btn">
+                            <input type="checkbox" class="favorites-checkbox">
+                            <span class="heart-icon heart-checked unchecked" id="favourites">&#10084;</span>
+                        </label>
+                    </div>
+                    <button>Add to cart</button>
+                </div>
+            </div>
+        </div>
+
+        <div class="product unchosen" data-category="shampoo">
+            <div class="image">
+                <!-- <div class="offer">-10%</div> -->
+                <img src="images/The_indispensable_product_of_the_skin_care_routine__sunscreen___skincare__skincareroutine__suncream__larocheposay-removebg-preview.png" alt="">
+            </div>
+            <div class="disc">
+                <div class="name">la Roche posay</div>
+                <div class="content">
+                    <p>Sunscreen for dry skin, 150 ml</p>
+                </div>
+                <div class="price">
+                    <h3>$15.29</h3>
+                </div>
+                <div class="stars">
+                    <i class="fa fa-star checked"></i>
+                    <i class="fa fa-star checked"></i>
+                    <i class="fa fa-star unchecked"></i>
+                    <i class="fa fa-star unchecked"></i>
+                    <i class="fa fa-star unchecked"></i>
+                </div>
+                <div class="btn">
+                    <div class="favorites-container">
+                        <label class="favorites-btn">
+                            <input type="checkbox" class="favorites-checkbox">
+                            <span class="heart-icon heart-checked unchecked" id="favourites">&#10084;</span>
+                        </label>
+                    </div>
+                    <button>Add to cart</button>
+                </div>
+            </div>
+        </div>
+
+
+
+        <!-- ========================================================================================= -->
+        <!-- Hair conditioner -->
+        <div class="product unchosen" data-category="conditioner">
+            <div class="image">
+                <!-- <div class="offer">-10%</div> -->
+                <img src="images/The_Best_Gel_Moisturizers_for_Your_Skin-removebg-preview.png" alt="">
+            </div>
+            <div class="disc">
+                <div class="name">The Ordianry Moisturizer</div>
+                <div class="content">
+                    <p>The best choice for oily skin,150ml</p>
+                </div>
+                <div class="price">
+                    <h3>$29.99</h3>
+                </div>
+                <div class="stars">
+                    <i class="fa fa-star checked"></i>
+                    <i class="fa fa-star checked"></i>
+                    <i class="fa fa-star checked"></i>
+                    <i class="fa fa-star checked"></i>
+                    <i class="fa fa-star unchecked"></i>
+                </div>
+                <div class="btn">
+                    <div class="favorites-container">
+                        <label class="favorites-btn">
+                            <input type="checkbox" class="favorites-checkbox">
+                            <span class="heart-icon heart-checked unchecked" id="favourites">&#10084;</span>
+                        </label>
+                    </div>
+                    <button>Add to cart</button>
+                </div>
+            </div>
+        </div>
+
+        <div class="product unchosen" data-category="conditioner">
+            <div class="image">
+                <!-- <div class="offer">-10%</div> -->
+                <img src="images/Glow_Recipe_Watermelon_Glow_Pink_Juice_Moisturizer____39_00-removebg-preview.png" alt="">
+            </div>
+            <div class="disc">
+                <div class="name">Glow pink</div>
+                <div class="content">
+                    <p>Perfect for glowy touch, 250 ml</p>
+                </div>
+                <div class="price">
+                    <h3>$30.49</h3>
+                </div>
+                <div class="stars">
+                    <i class="fa fa-star unchecked"></i>
+                    <i class="fa fa-star unchecked"></i>
+                    <i class="fa fa-star unchecked"></i>
+                    <i class="fa fa-star unchecked"></i>
+                    <i class="fa fa-star unchecked"></i>
+                </div>
+                <div class="btn">
+                    <div class="favorites-container">
+                        <label class="favorites-btn">
+                            <input type="checkbox" class="favorites-checkbox">
+                            <span class="heart-icon heart-checked unchecked" id="favourites">&#10084;</span>
+                        </label>
+                    </div>
+                    <button>Add to cart</button>
+                </div>
+            </div>
+        </div>
+
+        <div class="product unchosen" data-category="conditioner">
+            <div class="image">
+                <!-- <div class="offer">-10%</div> -->
+                <img src="images/We_Tried_Hundreds_of_Moisturizers_These_Are_the_Absolute_Best-removebg-preview.png" alt="">
+            </div>
+            <div class="disc">
+                <div class="name">Lala Retro</div>
+                <div class="content">
+                    <p>Moisturizer have 6 Oils, 200 ml</p>
+                </div>
+                <div class="price">
+                    <h3>$36.70</h3>
+                </div>
+                <div class="stars">
+                    <i class="fa fa-star checked"></i>
+                    <i class="fa fa-star checked"></i>
+                    <i class="fa fa-star checked"></i>
+                    <i class="fa fa-star unchecked"></i>
+                    <i class="fa fa-star unchecked"></i>
+                </div>
+                <div class="btn">
+                    <div class="favorites-container">
+                        <label class="favorites-btn">
+                            <input type="checkbox" class="favorites-checkbox">
+                            <span class="heart-icon heart-checked unchecked" id="favourites">&#10084;</span>
+                        </label>
+                    </div>
+                    <button>Add to cart</button>
+                </div>
+            </div>
+        </div>
+
+        <div class="product unchosen" data-category="conditioner">
+            <div class="image">
+                <!-- <div class="offer">-10%</div> -->
+                <img src="images/BYOMA_So_Hydrating_Set_in_Assorted_at_Urban_Outfitters-removebg-preview.png" alt="">
+            </div>
+            <div class="disc">
+                <div class="name">BYMOA</div>
+                <div class="content">
+                    <p>Hydrating Moisturizers, 300 ml</p>
+                </div>
+                <div class="price">
+                    <h3>$21.49</h3>
+                </div>
+                <div class="stars">
+                    <i class="fa fa-star checked"></i>
+                    <i class="fa fa-star checked"></i>
+                    <i class="fa fa-star unchecked"></i>
+                    <i class="fa fa-star unchecked"></i>
+                    <i class="fa fa-star unchecked"></i>
+                </div>
+                <div class="btn">
+                    <div class="favorites-container">
+                        <label class="favorites-btn">
+                            <input type="checkbox" class="favorites-checkbox">
+                            <span class="heart-icon heart-checked unchecked" id="favourites">&#10084;</span>
+                        </label>
+                    </div>
+                    <button>Add to cart</button>
+                </div>
+            </div>
+        </div>
+
+        <div class="product unchosen" data-category="conditioner">
+            <div class="image">
+                <!-- <div class="offer">-10%</div> -->
+                <img src="images/The_Best_Face_Moisturizers_to_Hydrate_All_Skin_Types-removebg-preview.png"
+                    alt="">
+            </div>
+            <div class="disc">
+                <div class="name">Glossier</div>
+                <div class="content">
+                    <p>The best Moisturizer,200ml</p>
+                </div>
+                <div class="price">
+                    <h3>$48.00</h3>
+                </div>
+                <div class="stars">
+                    <i class="fa fa-star checked"></i>
+                    <i class="fa fa-star checked"></i>
+                    <i class="fa fa-star checked"></i>
+                    <i class="fa fa-star checked"></i>
+                    <i class="fa fa-star unchecked"></i>
+                </div>
+                <div class="btn">
+                    <div class="favorites-container">
+                        <label class="favorites-btn">
+                            <input type="checkbox" class="favorites-checkbox">
+                            <span class="heart-icon heart-checked unchecked" id="favourites">&#10084;</span>
+                        </label>
+                    </div>
+                    <button>Add to cart</button>
+                </div>
+            </div>
+        </div>
+
+        <!-- ====================================================================================== -->
+        <!-- Hair Mask -->
+
+        <div class="product unchosen" data-category="hair-mask">
+            <div class="image">
+                <!-- <div class="offer">-10%</div> -->
+                <img src="images/Rice_Milk_Lotion___Sake_Body_Lotion-removebg-preview.png" alt="">
+            </div>
+            <div class="disc">
+                <div class="name">Sake body</div>
+                <div class="content">
+                    <p>Rice Milk lotion,500 ml</p>
+                </div>
+                <div class="price">
+                    <h3>$19.09</h3>
+                </div>
+                <div class="stars">
+                    <i class="fa fa-star checked"></i>
+                    <i class="fa fa-star checked"></i>
+                    <i class="fa fa-star checked"></i>
+                    <i class="fa fa-star checked"></i>
+                    <i class="fa fa-star unchecked"></i>
+                </div>
+                <div class="btn">
+                    <div class="favorites-container">
+                        <label class="favorites-btn">
+                            <input type="checkbox" class="favorites-checkbox">
+                            <span class="heart-icon heart-checked unchecked" id="favourites">&#10084;</span>
+                        </label>
+                    </div>
+                    <button>Add to cart</button>
+                </div>
+            </div>
+        </div>
+        <div class="product unchosen" data-category="hair-mask">
+            <div class="image">
+                <!-- <div class="offer">-10%</div> -->
+                <img src="images/These_Hand_Creams_Will_Instantly_Soften_Dry__Cracked_Skin-removebg-preview.png" alt="">
+            </div>
+            <div class="disc">
+                <div class="name">Vaseline</div>
+                <div class="content">
+                    <p>best hand cream,100ml</p>
+                </div>
+                <div class="price">
+                    <h3>$20.99</h3>
+                </div>
+                <div class="stars">
+                    <i class="fa fa-star checked"></i>
+                    <i class="fa fa-star checked"></i>
+                    <i class="fa fa-star checked"></i>
+                    <i class="fa fa-star unchecked"></i>
+                    <i class="fa fa-star unchecked"></i>
+                </div>
+                <div class="btn">
+                    <div class="favorites-container">
+                        <label class="favorites-btn">
+                            <input type="checkbox" class="favorites-checkbox">
+                            <span class="heart-icon heart-checked unchecked" id="favourites">&#10084;</span>
+                        </label>
+                    </div>
+                    <button>Add to cart</button>
+                </div>
+            </div>
+        </div>
+        <div class="product unchosen" data-category="hair-mask">
+            <div class="image">
+                <!-- <div class="offer">-10%</div> -->
+                <img src="images/Trust_Me__These_Body_Lotions_Will_Quench_Your_Thirsty_Skin-removebg-preview.png" alt="">
+            </div>
+            <div class="disc">
+                <div class="name">Nivea</div>
+                <div class="content">
+                    <p>smooth touch , 250 ml</p>
+                </div>
+                <div class="price">
+                    <h3>$47.99</h3>
+                </div>
+                <div class="stars">
+                    <i class="fa fa-star checked"></i>
+                    <i class="fa fa-star checked"></i>
+                    <i class="fa fa-star checked"></i>
+                    <i class="fa fa-star checked"></i>
+                    <i class="fa fa-star unchecked"></i>
+                </div>
+                <div class="btn">
+                    <div class="favorites-container">
+                        <label class="favorites-btn">
+                            <input type="checkbox" class="favorites-checkbox">
+                            <span class="heart-icon heart-checked unchecked" id="favourites">&#10084;</span>
+                        </label>
+                    </div>
+                    <button>Add to cart</button>
+                </div>
+            </div>
+        </div>
+
+        <div class="product unchosen" data-category="hair-mask">
+            <div class="image">
+                <!-- <div class="offer">-10%</div> -->
+                <img src="images/Victoria_s_Secret_Lavender___Vanilla_8oz_Hydrating_Body_Lotion-removebg-preview.png" alt="">
+            </div>
+            <div class="disc">
+                <div class="name">Victoria Secret/div>
+                <div class="content">
+                    <p>perfect hand lotion,150ml</p>
+                </div>
+                <div class="price">
+                    <h3>$70.00</h3>
+                </div>
+                <div class="stars">
+                    <i class="fa fa-star checked"></i>
+                    <i class="fa fa-star checked"></i>
+                    <i class="fa fa-star checked"></i>
+                    <i class="fa fa-star checked"></i>
+                    <i class="fa fa-star unchecked"></i>
+                </div>
+                <div class="btn">
+                    <div class="favorites-container">
+                        <label class="favorites-btn">
+                            <input type="checkbox" class="favorites-checkbox">
+                            <span class="heart-icon heart-checked unchecked" id="favourites">&#10084;</span>
+                        </label>
+                    </div>
+                    <button>Add to cart</button>
+                </div>
+            </div>
+        </div>
+        <div class="product unchosen" data-category="hair-mask">
+            <div class="image">
+                <!-- <div class="offer">-10%</div> -->
+                <img src="images/The_Best_New_Skincare_Products_of_December_2021-removebg-preview.png" alt="">
+            </div>
+            <div class="disc">
+                <div class="name">Versed</div>
+                <div class="content">
+                    <p>perfect lotion,150ml</p>
+                </div>
+                <div class="price">
+                    <h3>$23.49</h3>
+                </div>
+                <div class="stars">
+                    <i class="fa fa-star checked"></i>
+                    <i class="fa fa-star checked"></i>
+                    <i class="fa fa-star checked"></i>
+                    <i class="fa fa-star unchecked"></i>
+                    <i class="fa fa-star unchecked"></i>
+                </div>
+                <div class="btn">
+                    <div class="favorites-container">
+                        <label class="favorites-btn">
+                            <input type="checkbox" class="favorites-checkbox">
+                            <span class="heart-icon heart-checked unchecked" id="favourites">&#10084;</span>
+                        </label>
+                    </div>
+                    <button>Add to cart</button>
+                </div>
+            </div>
+        </div></div></div>
+    <footer>
+            <div class="footerr">
+                <a href="#">About us</a>
+                <a href="contact us.html">Contact us</a>
+                <a href="Skin.html">Skin Care</a>
+                <a href="bodyProducts.html">Body</a>
+                <a href="hairProducts.html">Hair</a>
+                <a href="home.html">Home</a>
+            </div>
+            <div class="ficon">
+                <a href="#"> <i id="iconss" class="fa-brands fa-facebook-f"></i></a>
+                <a href="#"><i id="iconss" class="fa-brands fa-twitter"></i></a>
+                <a href="#"><i id="iconss" class="fa-brands fa-google"></i></a>
+                <a href="#"><i id="iconss" class="fa-brands fa-instagram"></i></a>
+            </div>
+            <div class="footer"> © JustForYou-created by Basmala Amr</div>
+    </footer>
+    <script src="Js/skin.js"></script>
+</body>
+
+</html>

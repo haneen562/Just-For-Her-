@@ -1,0 +1,217 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JUST FOR HER</title>
+    <link rel="stylesheet" href="css/checkout_style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+</head>
+
+<body>
+    <header class="header">
+        <ul class="header_list">
+            <!-- <li><a href="#"><i class="Login"></i> <span>Login/Register</span></a></li> -->
+        </ul>
+        <nav class="navigation">
+            <div class="container">
+                <div class="navigation__left">
+                    <a class="logo" href="/">
+                        <img style="max-height: 50px;" src="images/just-for-her-high-resolution-logo-transparent (3).png" alt="logo" >
+                    </a>
+                </div>
+                <div class="navigation__center">
+                    <ul class="menu">
+                        <li class="menu-item ">
+                            <a href="home.html"_self">
+                       Home
+                       </a>
+                        </li>
+                        <li class="menu-item ">
+                            <a href="#" target="_self">
+                       Shop
+                       </a>
+                        </li>
+
+                        <li class="menu-item">
+                            <a style="color: #004085" href="#" target="_self">
+                       Track Your Order
+                       </a>
+                        </li>
+                        <!-- <li class="menu-item   ">
+                            <a href="#" target="_self">
+                       Login/Register
+                       </a>
+                        </li> -->
+
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+    <div class="ul-container ">
+        <div class="container">
+            <ul class="ul-custom">
+                <li><a href="home.html">Home</a></li>
+                <li>/</li>
+                <li><a href="add_to_cart.html">Shopping Cart</a></li>
+                <li>/</li>
+                <li class="active">CheckOut</li>
+            </ul>
+        </div>
+    </div>
+    <header>
+        <h1>Checkout</h1>
+    </header>
+
+    <main class="checkout-container">
+        <section class="checkout-form">
+            <h2>* Shipping Information</h2>
+            <form action="" method="POST">
+                <div class="form-group">
+                    <label for="name">Full Name</label>
+                    <input type="text" id="name" name="name" required>
+                </div>
+
+                <div class="form-group">
+                    <label for="phone">Phone</label>
+                    <input type="text" id="phone" name="phone" placeholder="0122XXXXXX" required>
+                </div>
+
+                <div class="form-group">
+                    <label for="country">Country</label>
+                    <input type="text" id="country" name="country" value="Egypt">
+                </div>
+
+                <select placeholder="Governorate" aria-required="true" name="city" id="city">
+                                                         
+                    <option value="7" id="95.00" name="7-10">قنا</option>
+                 
+                    <option value="8" id="95.00" name="7-10">اسوان</option>
+                 
+                    <option value="10" id="95.00" name="7-10">الاقصر</option>
+                 
+                    <option value="11" id="65.00" name="5-7">الاسماعيليه</option>
+                 
+                    <option value="12" id="75.00" name="5-7">الفيوم</option>
+                 
+                    <option value="13" id="65.00" name="5-7">السويس</option>
+                 
+                    <option value="14" id="65.00" name="5-7">رشيد</option>
+                 
+                    <option value="15" id="65.00" name="3-6">البحيره</option>
+                 
+                    <option value="16" id="65.00" name="5-7">الشرقيه</option>
+                 
+                    <option value="19" id="65.00" name="5-7">القليوبيه</option>
+                 
+                    <option value="20" id="90.00" name="5-7">مطروح</option>
+                 
+                    <option value="21" id="65.00" name="5-7">الغربيه</option>
+                 
+                    <option value="22" id="65.00" name="5-7">الدقهليه</option>
+                 
+                    <option value="23" id="65.00" name="5-7">كفر الشيخ</option>
+                 
+                    <option value="24" id="65.00" name="5-7">دمياط</option>
+                 
+                    <option value="25" id="65.00" name="5-7">بورسعيد</option>
+                 
+                    <option value="26" id="60.00" name="3-7">الجيزه</option>
+                 
+                    <option value="27" id="60.00" name="3-7">القاهره</option>
+                 
+                    <option value="28" id="55.00" name="3-6">العامريه</option>
+                 
+                    <option value="29" id="55.00" name="3-6">برج العرب</option>
+                 
+                    <option value="31" id="55.00" name="3-6">العجمي</option>
+                 
+                    <option value="32" id="50.00" name="3-6">اسكندريه</option>
+                 
+                    <option value="34" id="120.00" name="7-10">الغردقه</option>
+                 
+                    <option value="35" id="120.00" name="7-10">البحر الاحمر</option>
+                 
+                    <option value="36" id="120.00" name="7-10">راس غارب</option>
+                 
+                    <option value="37" id="120.00" name="7-10">الوادي الجديد</option>
+                 
+                    <option value="38" id="95.00" name="7-10">سوهاج</option>
+                 
+                    <option value="39" id="95.00" name="7-10">اسيوط</option>
+                 
+                    <option value="40" id="85.00" name="5-7">الساحل الشمالي</option>
+                 
+                    <option value="41" id="65.00" name="5-7">المنوفيه</option>
+                 
+                    <option value="42" id="75.00" name="5-7">بني سويف</option>
+                 
+                    <option value="43" id="95.00" name="7-10">المنيا</option>
+                 
+              </select>
+                <br> <br>
+
+                <div class="form-group">
+                    <label for="address">Address</label>
+                    <input type="text" id="address" name="address" required>
+                </div>
+
+                <div class="form-group">
+                    <label for="notes">Notes (optional)</label>
+                    <textarea id="notes" name="notes" placeholder="Notes, apartment, suite, etc."></textarea>
+                </div>
+
+                <h2>* Payment Method</h2>
+                <div class="form-group">
+                    <input type="radio" id="cod" name="payment" value="cod"> &nbsp;&nbsp; Cash On Delivery &nbsp;&nbsp; (الدفع عند الاستلام)
+
+                </div>
+
+                <h2>* Shipping Method</h2>
+                <div class="form-group">
+                    <input type="radio" id="shipping-method" name="shipping" value="standard"> &nbsp;&nbsp; (7-10 Days Shipping) &nbsp;&nbsp; ($ 45.00)
+
+                </div>
+
+                <button type="submit" class="submit-btn">Place My Order</button>
+            </form>
+        </section>
+
+        <section class="order-summary">
+            <h2>Product(s):</h2>
+            <div class="summary-item">
+                <img src="images/product.jpeg" alt="Product" class="product-img">
+                <div class="product-details">
+                    <p id="product-name">RoseMarry oil</p>
+                    <p id="product-size">120 Ml </p>
+                    <p id="product-price">$64.00</p>
+                </div>
+            </div>
+            <hr>
+        </section>
+    </main>
+
+    <footer></footer>
+        <div class="footerr">
+            <a href="#">About us</a>
+            <a href="contact us.html">Contact us</a>
+            <a href="Skin.html">Skin Care</a>
+                <a href="bodyProducts.html">Body</a>
+                <a href="hairProducts.html">Hair</a>
+            <a href="home.html">Home</a>
+        </div>
+        <div class="ficon">
+            <a href="#"> <i id="iconss" class="fa-brands fa-facebook-f"></i></a>
+            <a href="#"><i id="iconss" class="fa-brands fa-twitter"></i></a>
+            <a href="#"><i id="iconss" class="fa-brands fa-google"></i></a>
+            <a href="#"><i id="iconss" class="fa-brands fa-instagram"></i></a>
+        </div>
+        <div class="footer"> © JustForYou-created by Haneen Nasser</div>
+    </footer>
+    <script src="js/checkout.js"></script>
+
+</body>
+
+</html>
